@@ -4,7 +4,13 @@
 --------------------------------------------------------
 
 
-1		-	Introduction to ASP.NET MVC 4
+2		-	Introduction to ASP.NET MVC 4
 
 	2.4			-	New Project
 	2.6			-	Making Changes
+	2.7			-	Unit Testing
+	2.8			-	JavaScript and CSS
+
+3		-	Controllers in ASP.NET MVC 4
+
+	3.2			-	Routes and Controllers
