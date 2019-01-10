@@ -14,3 +14,16 @@
 3		-	Controllers in ASP.NET MVC 4
 
 	3.2			-	Routes and Controllers
+	3.3			-	Actions and Parameters
+	3.4			-	Action Results
+	3.5			- 	Action Selectors
+	3.6			-	Action Filters
+
+4		-	Razor Views
+
+	4.2			-	Razor Basics
+	4.3			-	Code Expressions
+	4.4			-	Code Blocks
+	4.5			-	Layout Views
+	4.6			-	HTML Helpers
+	4.7			-	Partial Views
