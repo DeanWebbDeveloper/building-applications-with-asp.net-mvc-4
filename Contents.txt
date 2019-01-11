@@ -27,3 +27,7 @@
 	4.5			-	Layout Views
 	4.6			-	HTML Helpers
 	4.7			-	Partial Views
+
+5		-	Working With Data (Part 1)
+
+	5.3			-	Building Entities
