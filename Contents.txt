@@ -28,6 +28,14 @@
 	4.6			-	HTML Helpers
 	4.7			-	Partial Views
 
-5		-	Working With Data (Part 1)
+5		-	Working With Data (Part I)
 
 	5.3			-	Building Entities
+	5.4			-	Database Migrations
+	5.5			-	Using LINQ
+	5.6			-	A Search Filter
+
+6		-	Working With Data (Part II)
+
+	6.2			-	A Restaurant Controller
+	6.3			-	Listing Reviews
