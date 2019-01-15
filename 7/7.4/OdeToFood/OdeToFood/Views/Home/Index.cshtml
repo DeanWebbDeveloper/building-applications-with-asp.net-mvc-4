@@ -1,0 +1,28 @@
+﻿@model IEnumerable<OdeToFood.Models.RestaurantListViewModel>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+
+@*<form class="form-inline" method="get">
+    <input class="form-control mb-2" type="search" name="searchTerm" />
+    <input class="btn btn-info mb-2" type="submit" value="Search by Name" />
+</form>*@
+
+@using (Ajax.BeginForm(
+    new AjaxOptions
+    {
+        HttpMethod = "get",
+        InsertionMode = InsertionMode.Replace,
+        UpdateTargetId = "restaurantList"
+    }))
+{
+    <input class="form-control mb-2" type="search" name="searchTerm" />
+    <input class="btn btn-info mb-2" type="submit" value="Search By Name" />
+}
+
+@Html.Partial("_Restaurants", Model)
+

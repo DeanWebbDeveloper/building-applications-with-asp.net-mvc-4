@@ -39,3 +39,17 @@
 
 	6.2			-	A Restaurant Controller
 	6.3			-	Listing Reviews
+	6.4			-	Creating a Review
+	6.5			-	Editing a Review
+	6.6			-	Mass Assignment
+	6.7			-	Validation Annotations
+	6.8			-	Custom Validations
+
+7		-	AJAX and ASP.NET MVC
+
+	7.2			-	The Scripts
+	7.3			-	Managing Scripts
+	7.4			-	AJAX Helpers
+	7.5			-	An Async Search
+	7.6			-	Autocompletion
+	7.7			-	Paging Results
