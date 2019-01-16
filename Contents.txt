@@ -53,3 +53,14 @@
 	7.5			-	An Async Search
 	7.6			-	Autocompletion
 	7.7			-	Paging Results
+
+8		-	Security and ASP.NET MVC 4
+
+	8.3			-	Windows Authentication
+	8.4			-	Forms Authentication
+	8.5			-	Taking Control of Membership
+	8.6			-	Forms Authentication In Action
+	8.7			-	Authorize
+	8.8			-	Seeding Membership
+	8.9			-	A cross sit request forgery
+	8.10		-	OpenID and OAuth
