@@ -57,7 +57,6 @@
 8		-	Security and ASP.NET MVC 4
 
 	8.3			-	Windows Authentication
-	8.4			-	Forms Authentication
 	8.5			-	Taking Control of Membership
 	8.6			-	Forms Authentication In Action
 	8.7			-	Authorize
