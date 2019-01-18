@@ -1,0 +1,32 @@
+﻿@model IPagedList<RestaurantListViewModel>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+
+<form class="form-inline" method="get" action="@Url.Action("Index")"
+      data-otf-ajax="true" data-otf-target="#restaurantList">
+
+    <input class="form-control mb-2" type="search" name="searchTerm" data-otf-autocomplete="@Url.Action("Autocomplete")" />
+    <input class="btn btn-info mb-2" type="submit" value="Search by Name" />
+
+</form>
+
+@{ 
+    var amount = 10.0m;
+    var someDate = new DateTime(2002, 7, 9);
+}
+
+<div>
+    @amount.ToString("c")
+</div>
+<div>
+    @someDate.ToShortDateString()
+</div>
+
+
+@Html.Partial("_Restaurants", Model)
+
