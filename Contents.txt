@@ -85,4 +85,3 @@
 	11.5		-	Preparing For Deployment
 	11.6		-	Deploying to IIS
 	11.7		-	A Second Deployment
-	11.8		-	Deploying to Windows Azure
